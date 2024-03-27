@@ -1,5 +1,19 @@
-.External-Style {
+/* .External-Style {
     width: 300px;
     height: 150px;
     background-color: green;
+} */
+
+/* 
+    ////////////
+    CSS Selector
+    //////////// 
+*/
+div {
+    width: 300px;
+    height: 150px;
+    background: #00ff3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
