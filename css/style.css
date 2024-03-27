@@ -17,6 +17,11 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+/* 
+///////////////////
+    Dev Tool
+/////////////////// 
+*/
 .dev_tool{
     width: 500px;
     height: 250px;
@@ -28,4 +33,26 @@ h1 {
     color: #fff;
     font-size: 50px;
     font-weight: 800;
+}
+/* 
+///////////////////
+    CSS Color
+/////////////////// 
+*/
+.css_color{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(33, 40, 255);
+
+    /* 1.Color Name */
+    background-color: blueviolet;
+    /* 2.Color HEX */
+    background-color: #17b7e3;
+    /* 3.Color rgb */
+    background-color: rgb(246, 103, 26);
+    /* 3.Color rgba */
+    background-color: rgba(246, 103, 26, 0.3);
 }
